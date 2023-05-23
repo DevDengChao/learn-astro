@@ -8,6 +8,10 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^2.5.3"
+    "astro": "^2.5.0",
+    "@astrojs/vue": "^2.2.0",
+    "vue": "^3.2.30"
+  },
+  "dependencies": {
   }
 }
