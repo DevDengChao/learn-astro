@@ -1,6 +1,6 @@
 <template>
   <div>
-    Count
+    Vue Count
     <button @click="countDown">-</button>
     {{ count }}
     <button @click="countUp">+</button>

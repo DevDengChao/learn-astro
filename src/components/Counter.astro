@@ -1,0 +1,27 @@
+---
+---
+
+<div>
+    Astro Count
+    <button id="countDown">-</button>
+    <span id="count">0</span>
+    <button id="countUp">+</button>
+</div>
+<script>
+    let count = 0;
+    let e = document.getElementById('count');
+
+    function countDown() {
+        count--;
+        e.innerText = count.toString();
+    }
+
+    document.getElementById('countDown').onclick = countDown;
+
+    function countUp() {
+        count++;
+        e.innerText = count.toString();
+    }
+
+    document.getElementById('countUp').onclick = countUp;
+</script>
