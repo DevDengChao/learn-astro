@@ -1,0 +1,13 @@
+{
+  "name": "mall.xgtl.online",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "astro": "^2.5.3"
+  }
+}
